@@ -1,0 +1,132 @@
+/* Reset dan font dasar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container utama */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+/* Foto profil */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading utama */
+h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Subheading */
+p.text-muted {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Section */
+section {
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    border-bottom: 2px solid #000000;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+/* Teks paragraf */
+section p {
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+table thead {
+    background-color: #88919d;
+    color: white;
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+    text-align: left;
+}
+
+/* Gambar galeri */
+.row img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.row img:hover {
+    transform: scale(1.05);
+}
+
+/* Daftar (list) */
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+ul li, ol li {
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+}
+
+/* Link */
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer atau bagian kontak */
+#kontak p {
+    font-weight: 500;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .profile-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
